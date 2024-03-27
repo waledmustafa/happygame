@@ -1,7 +1,7 @@
 console.log("Hello");
 
 async function getIp() {
-    let ip = await fetch("http://ip-api.com/json/");
+    let ip = await fetch("https://ip-api.com/json/");
     let response = await ip.json();
     return response; // Return the entire JSON response
 }
